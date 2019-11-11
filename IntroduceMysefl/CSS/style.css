@@ -1,0 +1,52 @@
+﻿body {
+    background: #ffffff;
+}
+@font-face {
+    font-family: 'Montserrat-Black';
+    src: url('../font/Montserrat-Black.otf') format('opentype');
+}
+.part-1 {
+    position: absolute;
+    left: 0px;
+    width: 50%;
+    top: 0px;
+    bottom: 0px;
+    /*background-image: url('/img/76648974_2581176595238559_4445706418862948352_o.jpg');*/
+    background-image: url('/img/74311363_1554456218026085_7774030920478097408_n.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.part-2{
+    position:absolute;
+    top:0px;
+    bottom:0px;
+    left:50%;
+    right:0px;
+    height:100%;
+}
+.part-2 .part-2-top {
+    position:absolute;
+    top:0px;
+    bottom:40%;
+    left:0px;
+    right:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.part-2 .part-2-bot{
+    position:absolute;
+    bottom:0px;
+    top:60%;
+    left:0px;
+    right:0px;
+    display: flex;
+    justify-content: center;
+}
+.as{
+    display:flex;
+    justify-content:flex-start;
+}
+.tag-a {
+    padding: 20px !important;
+}
